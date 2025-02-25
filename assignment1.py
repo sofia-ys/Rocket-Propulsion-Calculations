@@ -22,9 +22,9 @@ print("Payload mass carried by the second stage:", massPL)
 
 # maximum acceptable total rocket thrust (1st stage)
 accelMax = c.gMax * c.g0 + c.g0
-thrustMax_1 = accelMax * massFin_1
+thrustMax_1 = accelMax * c.massIn_1
 print("Maximum acceptable total rocket thrust (1st stage):", thrustMax_1)
 
 # maximum acceptable total rocket thrust (2nd stage)
-thrustMax_2 = accelMax * massFin_2
+thrustMax_2 = accelMax * massIn_2
 print("Maximum acceptable total rocket thrust (2nd stage):", thrustMax_2)
